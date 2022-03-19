@@ -11,6 +11,7 @@ function Chat() {
     {user: "user2", msg: "Hi", position: "right"},
     {user: "user1", msg: "How are you?", position: "left"},
     {user: "user2", msg: "I'm fine, thank you. And you?", position: "right"},
+    {user: "user1", msg: "I'm OK , Thanks", position: "left"},
   ]);
 
   return (
