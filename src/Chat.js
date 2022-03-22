@@ -28,6 +28,7 @@ function Chat() {
   },[userList])
 
   function onMsg(msg) {
+
     setChatData(oldChat => [msg, ...oldChat]);
   }
 
