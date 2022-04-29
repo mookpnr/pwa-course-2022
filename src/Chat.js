@@ -14,7 +14,6 @@ function Chat() {
 
   const [chatData, setChatData] = useState([]);
 
-
   function onMsg(msg) {
     setChatData(oldChat => [msg, ...oldChat]);
   }
